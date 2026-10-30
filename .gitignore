@@ -1,0 +1,14 @@
+# Python bytecode cache
+__pycache__/
+*.py[cod]
+
+
+# my python env
+.venv/
+
+*.log
+*.pth 
+*.out
+*.csv
+*.pkl
+*.png

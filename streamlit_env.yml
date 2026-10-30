@@ -1,0 +1,31 @@
+name: streamlit
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - numpy
+  - pandas
+  - rdkit
+  - matplotlib-base
+  - seaborn
+  - scikit-learn
+  - scipy
+  - streamlit
+  - altair
+  - pyarrow
+  - notebook
+  - ipykernel
+  - jupyter
+  - pytorch=1.10.2=cpu*   # CPU version for Linux
+  - pip:
+    - dash==2.1.0
+    - plotly==5.6.0
+    - flask==2.0.2
+    - joblib==1.1.0
+    - streamlit-plotly-events==0.0.6
+    - tenacity==8.0.1
+    - werkzeug==2.0.3
+    - brotli==1.0.9

@@ -1,0 +1,34 @@
+# Core scientific & ML
+numpy
+pandas
+scipy
+scikit-learn
+matplotlib
+seaborn
+joblib
+
+# RDKit (available as a wheel on Linux/macOS/Windows)
+rdkit-pypi
+
+# PyTorch CPU version (choose appropriate index)
+--extra-index-url https://download.pytorch.org/whl/cpu
+# torch==1.10.2
+torch==1.11.0+cpu
+
+# Streamlit ecosystem
+streamlit
+altair
+pyarrow
+plotly
+dash
+flask
+werkzeug
+
+# Jupyter / notebook support
+notebook
+ipykernel
+
+# Utilities
+brotli
+tenacity
+streamlit-plotly-events
